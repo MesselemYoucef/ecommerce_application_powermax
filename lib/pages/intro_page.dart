@@ -15,26 +15,51 @@ class IntroPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               //logo
-              Image.asset("lib/images/logo.png", height: 240,),
-              const SizedBox(height: 48,),
+              Image.asset(
+                "lib/images/logo.png",
+                height: 240,
+              ),
+              const SizedBox(
+                height: 48,
+              ),
               //title
-              const Text("Just Do It!", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
-          const SizedBox(height: 48,),
+              const Text(
+                "Just Do It!",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+              ),
+              const SizedBox(
+                height: 48,
+              ),
               //subtitle
-             const Text("Brand New Sneakers and Custom Kicks Made With Premium Materials", style: TextStyle( fontSize: 16.0, color: Colors.grey,),textAlign: TextAlign.center,),
-             const SizedBox(height: 48,),
-             GestureDetector(
-              onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage())),
-               child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.grey[900],
-                  borderRadius: BorderRadius.circular(12)
+              const Text(
+                "Brand New Sneakers and Custom Kicks Made With Premium Materials",
+                style: TextStyle(
+                  fontSize: 16.0,
+                  color: Colors.grey,
                 ),
-                padding: const EdgeInsets.all(25.0),
-                child: const Center(child: Text("Shop Now!", 
-                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16.0),)),
-               ),
-             )
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(
+                height: 48,
+              ),
+              GestureDetector(
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const HomePage())),
+                child: Container(
+                  decoration: BoxDecoration(
+                      color: Colors.grey[900],
+                      borderRadius: BorderRadius.circular(12)),
+                  padding: const EdgeInsets.all(25.0),
+                  child: const Center(
+                      child: Text(
+                    "Shop Now!",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16.0),
+                  )),
+                ),
+              )
               //start now button
             ],
           ),
