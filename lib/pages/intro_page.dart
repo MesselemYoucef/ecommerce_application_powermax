@@ -25,7 +25,7 @@ class IntroPage extends StatelessWidget {
               //title
               const Text(
                 "Electronics & Computer Accessories",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,),textAlign: TextAlign.center,
               ),
               const SizedBox(
                 height: 48,
