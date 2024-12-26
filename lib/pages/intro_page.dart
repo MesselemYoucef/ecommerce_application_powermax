@@ -24,7 +24,7 @@ class IntroPage extends StatelessWidget {
               ),
               //title
               const Text(
-                "Just Do It!",
+                "Electronics & Computer Accessories",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
               ),
               const SizedBox(
@@ -32,7 +32,7 @@ class IntroPage extends StatelessWidget {
               ),
               //subtitle
               const Text(
-                "Brand New Sneakers and Custom Kicks Made With Premium Materials",
+                "Welcome to Number One Destination For All Your Electronics Needs",
                 style: TextStyle(
                   fontSize: 16.0,
                   color: Colors.grey,
